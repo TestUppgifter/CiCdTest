@@ -1,6 +1,11 @@
 name: Spring Boot CI/CD
 
-on: push
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+    types: [ opened, synchronize ]
 
 jobs:
   build-and-test:
