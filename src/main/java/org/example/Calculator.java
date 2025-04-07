@@ -1,5 +1,8 @@
 package org.example;
 
+/**
+ * Calculator
+ */
 public class Calculator {
 
     public int calc(int a, int b){
